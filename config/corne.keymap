@@ -37,11 +37,11 @@
             >;
         };
 
-        i3_funct {
+        alt {
             bindings = <
-&trans  &kp LG(LC(Q))  &kp LG(LC(W))  &kp LG(LC(E))  &kp LG(LC(R))  &kp LG(LC(T))    &kp LG(LC(Y))  &kp LG(LC(U))  &kp LG(LC(I))  &kp LG(LC(O))  &kp LG(LC(P))          &trans
-&trans  &kp LG(LC(A))  &kp LG(LC(S))  &kp LG(LC(D))  &kp LG(LC(F))  &kp LG(LC(G))    &kp LG(LC(H))  &kp LG(LC(J))  &kp LG(LC(K))  &kp LG(LC(L))  &kp LG(LC(SEMICOLON))  &trans
-&trans  &kp LG(LC(Z))  &kp LG(LC(X))  &kp LG(LC(C))  &kp LG(LC(V))  &kp LG(LC(V))    &kp LG(LC(B))  &kp LG(LC(N))  &kp LG(LC(M))  &kp LG(COMMA)  &kp LG(LC(DOT))        &trans
+&trans  &kp LA(Q)  &kp LA(W)  &kp LA(E)  &kp LA(R)  &kp LA(T)    &kp LA(Y)  &kp LA(U)  &kp LA(I)  &kp LA(O)  &kp LA(P)          &trans
+&trans  &kp LA(A)  &kp LA(S)  &kp LA(D)  &kp LA(F)  &kp LA(G)    &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)  &kp LA(SEMICOLON)  &trans
+&trans  &kp LA(Z)  &kp LA(X)  &kp LA(C)  &kp LA(V)  &kp LA(V)    &kp LA(B)  &kp LA(N)  &kp LA(M)  &kp LA(COMMA)  &kp LA(DOT)        &trans
                                       &trans         &trans         &trans           &trans         &trans         &trans
             >;
         };
