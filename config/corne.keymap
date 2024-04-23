@@ -48,9 +48,9 @@
 
         nav {
             bindings = <
-&none  &kp Q   &kp W  &kp E     &kp R              &kp T                   &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_BRI_UP  &kp C_BRI_DN     &kp INS     &none
-&none  &kp A   &kp S  &kp D     &kp F              &kp G                   &kp LEFT_ARROW   &kp DOWN      &kp UP_ARROW  &kp RIGHT_ARROW  &kp DELETE  &none
-&none  &kp F1  &kp X  &kp C     &kp V              &kp B                   &kp LC(HOME)     &kp END       &kp PG_DN     &kp PG_UP        &kp FSLH    &none
+&none  &kp F11   &kp F12  &kp F13     &kp F14              &kp F15                   &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_BRI_UP  &kp C_BRI_DN     &kp INS     &none
+&none  &kp F6   &kp F7  &kp F8     &kp F9              &kp F10                   &kp LEFT_ARROW   &kp DOWN      &kp UP_ARROW  &kp RIGHT_ARROW  &kp DELETE  &none
+&none  &kp F1  &kp F2  &kp F3     &kp F4              &kp F5                   &kp LC(HOME)     &kp END       &kp PG_DN     &kp PG_UP        &kp FSLH    &none
                       &kp LGUI  &kp_sl LEFT_GUI 1  &mt LEFT_SHIFT SPACE    &kp RET          &mo 0         &kp RALT
             >;
         };
