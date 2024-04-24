@@ -31,11 +31,6 @@
     combos {
         compatible = "zmk,combos";
 
-        accent_a_combo {
-            bindings = <&accent_a_macro>;
-            key-positions = <20 13>;
-        };
-
         Ctrl-Gui {
             bindings = <&sk LC(LEFT_GUI)>;
             key-positions = <37 36>;
@@ -49,21 +44,6 @@
         Gui-Shift {
             bindings = <&sk LS(LEFT_GUI)>;
             key-positions = <37 38>;
-        };
-    };
-
-    macros {
-        accent_a_macro: accent_a_macro {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RALT &kp RSHFT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>,
-                <&macro_release>,
-                <&kp RSHFT &kp RALT>;
         };
     };
 
