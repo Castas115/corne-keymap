@@ -45,6 +45,36 @@
             bindings = <&sk LS(LEFT_GUI)>;
             key-positions = <37 38>;
         };
+
+        Bcsp {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20>;
+        };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <20 21>;
+        };
+
+        Del {
+            bindings = <&kp DELETE>;
+            key-positions = <21 22>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <15 16>;
+        };
+
+        Esc {
+            bindings = <&kp ESC>;
+            key-positions = <15 14>;
+        };
+
+        Tilde {
+            bindings = <&kp RA(SQT)>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
