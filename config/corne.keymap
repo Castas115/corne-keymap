@@ -90,7 +90,7 @@
 &trans  &kp LA(Q)  &kp LA(W)  &kp LA(E)  &kp LA(R)  &kp LA(T)    &kp LA(Y)  &kp LA(U)  &kp LA(I)  &kp LA(O)      &kp LA(P)          &trans
 &trans  &kp LA(A)  &kp LA(S)  &kp LA(D)  &kp LA(F)  &kp LA(G)    &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)      &kp LA(SEMICOLON)  &trans
 &trans  &kp LA(Z)  &kp LA(X)  &kp LA(C)  &kp LA(V)  &kp LA(V)    &kp LA(B)  &kp LA(N)  &kp LA(M)  &kp LA(COMMA)  &kp LA(DOT)        &trans
-                              &trans     &trans     &trans       &trans     &trans     &trans
+                     &kp LEFT_CONTROL  &kp_sl LEFT_GUI 1  &mt LEFT_SHIFT SPACE    &kp RET  &trans  &kp RALT
             >;
         };
 
@@ -108,7 +108,16 @@
 &none  &kp Q             &kp W              &kp E      &kp R              &kp T                   &kp EXCL     &kp PERCENT  &kp SINGLE_QUOTE   &kp AMPERSAND         &kp ASTERISK     &none
 &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp EQUAL          &kp G                   &kp AT_SIGN  &kp EQUAL    &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE  &none
 &none  &kp LESS_THAN     &kp GREATER_THAN   &kp TILDE  &kp GRAVE          &kp B                   &kp CARET    &kp DOLLAR   &kp MINUS          &kp LEFT_PARENTHESIS  &kp RPAR         &none
-                                            &kp LGUI   &kp_sl LEFT_GUI 1  &mt LEFT_SHIFT SPACE    &kp RET      &mo 0        &kp RALT
+                                            &kp LEFT_CONTROL   &kp_sl LEFT_GUI 1  &mt LEFT_SHIFT SPACE    &kp RET      &mo 0        &kp RALT
+            >;
+        };
+
+        numpad {
+            bindings = <
+&none  &kp F11  &kp F12  &kp F13   &kp F14            &kp F15                 &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_BRI_UP  &kp C_BRI_DN     &kp INS     &none
+&none  &kp F6   &kp F7   &kp F8    &kp F9             &kp F10                 &kp LEFT_ARROW   &kp DOWN      &kp UP_ARROW  &kp RIGHT_ARROW  &kp DELETE  &none
+&none  &kp F1   &kp F2   &kp F3    &kp F4             &kp F5                  &kp LC(HOME)     &kp END       &kp PG_DN     &kp PG_UP        &kp FSLH    &none
+                                            &kp LEFT_CONTROL   &kp_sl LEFT_GUI 1  &mt LEFT_SHIFT SPACE    &kp RET      &mo 0        &kp RALT
             >;
         };
     };
